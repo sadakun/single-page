@@ -1,0 +1,188 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ... */
+body {
+    font: 16px/28px "Lato", sans-serif;
+    color: #333;
+    background-image: url(../img/backgrounds/dot-grid.png);
+}
+.container {
+    width: 1000px;
+    margin: 100px auto;
+    border: 13px solid #fff;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,.5);
+    
+}
+
+.header {
+    padding: 20px;
+}
+
+.header .title {
+    font-size: 40px;
+    font-weight: 300;
+    color: #EF798A;
+}
+
+.header ul li {
+    margin-top: 20px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.header a {
+    text-decoration: none;
+    color: #E5C3D1;
+    padding: 10px;
+}
+
+.header a:hover {
+    color: #fff;
+    background-color: #E5C3D1;
+    border-radius: 5px;
+}
+
+.hero {
+    height: 580px;
+    background-size: cover;
+    background-image: url(../img/backgrounds/hero.jpg);
+    background-position: 0 -80px;
+    border-top: 5px solid #988B8E;
+}
+
+.hero-caption {
+    position: absolute;
+    margin: 8% 33%;
+}
+
+.hero .caption {
+    font-size: 50px;
+    font-weight: 100;
+    line-height: 80px;
+}
+
+.hero-caption a {
+    text-decoration: none;
+    
+    padding: 0 7px;
+    color: #fff;
+    background-color: #E5C3D1;
+    border-radius: 5px;
+}
+
+.hero-caption a:hover {
+    color: #EF798A;
+    background-color: #e5c3d100;
+}
+
+.content {
+    padding: 20px;
+    font-weight: 300;
+    width: 458px;
+    display: inline-block;
+}
+
+.content h3 {
+    font-size: 23px;
+}
+
+.content p {
+    margin-top: -5px;
+    margin-left: 2px;
+    margin-bottom: 15px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.content .author {
+    font-size: 11px;
+}
+
+.content .author a {
+    text-decoration: none;
+    color: #EF798A;
+}
+
+.content .author a:hover {
+    color: #E5C3D1;
+}
+
+.cta-read {
+    text-decoration: none;
+    padding: 7px;
+    color: #E5C3D1;
+}
+
+.cta-read:hover {
+    color: #EF798A;
+    border-bottom: 1px solid #EF798A;
+}
+
+.footer {
+    margin-top: 50px;
+    padding: 20px;
+    border-top: 5px solid #988B8E;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 0.712);
+}
+
+.footer a {
+    text-decoration: none;
+    padding: 7px;
+    color: #EF798A;
+}
+
+.footer a:hover {
+    color: #E5C3D1;
+}
