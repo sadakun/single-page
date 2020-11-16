@@ -8,7 +8,18 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div class="top-bar" id="topbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contacts</a></li>
+        </ul>
+    </div>
     <div class="container">
+        <a href="https://www.linkedin.com/in/samuel-kuncoro-722707197/" class="linkedin" target="_blank">@sadakun</a>
+        <a href="https://github.com/sadakun/" class="github" target="_blank">@sadakun</a>
         <div class="header">
             <h2 class="title">My Website</h1>
             <ul>
@@ -76,5 +87,16 @@
             <p class="copyright">Copyright 2020. by<a href="">SADAKU</a></p>
         </div>
     </div>
+    <script>
+        window.addEventListener("scroll", bringmenu);
+
+        function bringmenu() {
+            if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
+                document.getElementById("topbar").style.top = "-100%";
+            } else {
+                document.getElementById("topbar").style.top = "0";
+            }
+        }
+    </script>
 </body>
 </html>

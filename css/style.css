@@ -81,6 +81,43 @@ body {
     color: #333;
     background-image: url(../img/backgrounds/dot-grid.png);
 }
+
+.top-bar {
+    width: 920px;
+    height: 48px;
+    padding: 20px;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #E7C6D3;
+    z-index: 9999;
+    text-align: center;
+    transition: all .5s;
+}
+
+.top-bar ul li {
+    color: #EF798A;
+    margin: 20px 20px;
+    display: inline-block;
+}
+
+.top-bar a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.top-bar a:hover {
+    background-color: #fff;
+    color: #EF798A;
+    border-radius: 5px;
+}
+
+
 .container {
     width: 960px;
     margin: 100px auto;
@@ -88,11 +125,36 @@ body {
     border-radius: 3px;
     background-color: #fff;
     box-shadow: 0 0 15px rgba(0,0,0,.5);
+    position: relative;
     
+}
+
+.github {
+    display: inline-block;
+    width: 96px;
+    height: 96px;
+    background-image: url(../img/banner/github.png);
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    position: absolute;
+    top: -20px;
+    right: -10px;
+}
+.linkedin {
+    display: inline-block;
+    width: 96px;
+    height: 96px;
+    background-image: url(../img/banner/Linkedin.png);
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    position: absolute;
+    top: -20px;
+    right: 100px;
 }
 
 .header {
     padding: 20px;
+    text-align: center;
 }
 
 .header .title {
@@ -117,6 +179,7 @@ body {
     color: #fff;
     background-color: #E5C3D1;
     border-radius: 5px;
+    transform: translateX(50px);
 }
 
 .hero {
